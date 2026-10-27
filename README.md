@@ -165,7 +165,6 @@ OpenCode, а дальнейшая обработка зависит от выб�
 - Запуск: `open JarvisSiriOrb/build/JARVIS.app` (или `./JarvisSiriOrb/build/jarvis` из терминала)
 - Логи: `JarvisSiriOrb/jarvis.log`
 - Используется только `ollama-cloud/beam`, vision: `ollama-cloud/glm-5.3-flash`
-- Полная история логов не публикуется: создается пустой локальный `jarvis.log`, а `*.log` в `.gitignore`
 
 Старая версия в корне репозитория сохранена и не изменена.
 
