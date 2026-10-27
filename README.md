@@ -166,3 +166,19 @@ OpenCode, а дальнейшая обработка зависит от выб�
   **System Settings → Privacy & Security**.
 - **Не слышно ответ** — проверьте громкость и доступность системной команды
   `/usr/bin/say`.
+
+
+## Новая версия: Siri-шарик (папка `JarvisSiriOrb`)
+
+В репозитории добавлена отдельная папка с улучшенной версией: приложение
+работает как плавающий Siri-шарик поверх всех окон, без обычной рамки,
+с кружком hit-testing, кнопками, логами и моделью `ollama-cloud`.
+
+- Каталог: `JarvisSiriOrb/`
+- Сборка: `cd JarvisSiriOrb && make`
+- Запуск: `open JarvisSiriOrb/build/JARVIS.app` (или `./JarvisSiriOrb/build/jarvis` из терминала)
+- Логи: `JarvisSiriOrb/jarvis.log` (не выкладываются в репозиторий как история)
+- Используется только `ollama-cloud/beam`, vision: `ollama-cloud/glm-5.3-flash`
+- Полная история логов не публикуется: создается пустой локальный `jarvis.log`, а `*.log` в `.gitignore`
+
+Старая версия в корне репозитория сохранена и не изменена.
